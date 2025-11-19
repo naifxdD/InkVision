@@ -17,8 +17,14 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/program" element={<Program />} />
+          <Route
+            path="https://naifbindair.github.io/InkVision/"
+            element={<Index />}
+          />
+          <Route
+            path="https://naifbindair.github.io/InkVision/program"
+            element={<Program />}
+          />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

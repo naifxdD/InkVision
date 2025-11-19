@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import logo from "@/assets/icon.svg";
 
 declare const window: any;
-const nigger = "black";
 
 const UploadWidget = () => {
   const cloudinaryRef = useRef<any | null>();
@@ -34,7 +33,10 @@ const UploadWidget = () => {
   return (
     <div>
       <div className="flex items-center gap-2 m-7">
-        <a href="/" className="flex items-center justify-center">
+        <a
+          href="https://naifbindair.github.io/InkVision/"
+          className="flex items-center justify-center"
+        >
           <img src={logo} alt="logo" width="30" height="30" className="m-1" />
           <span className="text-xl font-bold text-foreground">InkVision</span>
         </a>
